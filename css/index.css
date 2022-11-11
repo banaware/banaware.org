@@ -8,7 +8,9 @@ main{
     background-image: url(/assets/bg.jpg);
     background-position: center;
     background-size: contain;
-    background-position: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 18px;
 }
 
 nav{
