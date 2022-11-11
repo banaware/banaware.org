@@ -5,12 +5,7 @@ html{
 }
 
 main{
-    background-image: url(/assets/bg.jpg);
-    background-position: center;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-x: 18px;
+    
 }
 
 nav{
@@ -40,6 +35,11 @@ nav ul{
 
     display: flex;
     justify-content: space-between;
+
+    background-image: url(/assets/bg.jpg);
+    background-size: 1920px 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #call-to-action>div{
