@@ -1,88 +1,62 @@
-html{
-    background-color: black;
-    max-height: 100vh;
-    overflow: hidden;
-}
-
-nav{
-    background-color: rgba(0, 0, 0, 255);
-}
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-
-    padding: 0px;
-    height: 44px;
-    padding-inline-start: 0px;
-
-    list-style-type: none;
-    font-weight: 100;
-    font-size: 16px;
-
+body{
+    background-color: rgba(51,50,76,255);
     color: white;
-    opacity: 90%;
+    width: 100vw;
+    float: left;
 }
 
-nav ul:hover{
-    opacity: 100%;
+.clearfix{
+    clear: both;
+}
+
+#logo{
+    margin: 50px;
+}
+
+header h1{
+    margin: 0 auto;
+    max-width: 310px;
+    font-size: 30px;
+    text-align: center;
+}
+
+main h3{
+    margin: 10px auto;
+    max-width: 370px;
+    padding: 0 20px;
     font-weight: 400;
 }
 
-#call-to-action{
-    height: 1080px;
-    max-width: 1430px;
-    margin: auto;
-    margin-top: 10vh;
-
-    display: flex;
-    justify-content: space-between;
-
-    background-image: url(/assets/bg.jpg);
-    background-size: 1920px 1100px;
-    background-position: center;
-    background-repeat: no-repeat;
+main h3:first-of-type{
+    margin-top: 50px;
 }
 
-#call-to-action>div{
-    margin: auto;
-    margin-top: 100px;
+#catalog{
+    margin: 40px auto;
+    max-width: 540px;
+    height: 400px;
 }
 
-#call-to-action h1{
-    font-size: 100px;
-    letter-spacing: 4px;
-    margin-top: 120px;
-    margin-bottom: 40px;
-    color: white;
-    opacity: 90%;
+#catalog article{
+    float: left;
+    width: 50%;
+    height: 180px;
 }
 
-#call-to-action button{
-    margin-left: 606px;
-    margin-top: 120px;
+#catalog h4{
+    text-align: center;
+    margin-bottom: 0;
 }
 
-.btn{
-    height: 100px;
-    width: 200px;
-    font-size: 30px;
-    opacity: 90%;
-
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-
-}
-.btn a{
-    padding: 20px 20px;
-    border: white 2px solid;
-    border-radius: 25px;
+footer{
+    display: block;
+    margin-top: 150px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(108, 109, 163, 0.2);
 }
 
-.btn a:hover{
-    opacity: 100%;
-    font-weight: 600;
-    border: white 4px solid;
+footer a{
+    margin-left: 5%;
 }
