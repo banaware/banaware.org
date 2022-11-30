@@ -44,7 +44,7 @@ main h3{
 
 #catalog{
     max-width: 400px;
-    margin: 45px;
+    margin: 45px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
